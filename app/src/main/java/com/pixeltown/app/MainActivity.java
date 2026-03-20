@@ -80,7 +80,7 @@ public class MainActivity extends Activity {
         webView.setWebChromeClient(new WebChromeClient());
 
         // 加载游戏
-        webView.loadUrl("file:///android_asset/game.html");
+        webView.loadUrl("file:///android_asset/game.html.html");;
     }
 
     // 返回键：优先让WebView处理（游戏内返回），否则才退出
